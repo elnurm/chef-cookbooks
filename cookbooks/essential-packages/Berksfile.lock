@@ -1,0 +1,11 @@
+DEPENDENCIES
+  essential-packages
+    path: .
+    metadata: true
+
+GRAPH
+  chef-sugar (5.0.0)
+  essential-packages (1.1.2)
+    firewall (~> 2.7.0)
+  firewall (2.7.0)
+    chef-sugar (>= 0.0.0)
